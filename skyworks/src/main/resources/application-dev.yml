@@ -1,14 +1,14 @@
 # port
 server:
   port: 8080
-# info_share;YGbAyWW2tfwkwDLR
+
 # 数据源
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/info_share?&allowMultiQueries=true
-    username: info_share
-    password: YGbAyWW2tfwkwDLR
+    username: root
+    password: 123456
     hikari:
       #设置事务自动提交
       auto-commit: true
@@ -23,16 +23,17 @@ spring:
   # 发送邮箱验证码
   mail:
     # smtp服务主机
-    host: smtp.gmail.com
+    host: smtp.qq.com
+    # 端口号
+    port: 587
     #服务协议
     protocol: smtp
-    port: 587
     # 编码集
     default-encoding: UTF-8
     #发送邮件的账户
-    username: loversgzlqian@gmail.com
+    username: 1270762753@qq.com
     #授权码
-    password: xsqx iwbv akxe szeu
+    password: xxxxxxxxxxxxxxxxx
     test-connection: true
     properties:
       mail:
@@ -86,13 +87,13 @@ pagehelper:
 
 # 生成Token的秘钥
 token:
-  secret: eyJhbGciOiJIUzI1NiJ9
+  secret: asdjlalskdjlakdjljjjkkk
 
 # 图片上传
 upload:
-  upload-path: /home/image/article/
+  upload-path: ./src/main/resources/static/image/article/
 
 # 管理员用户名
 admin:
-  userName: admin
-  password: 123456
+  userName: tom
+  password: ajbkdie
