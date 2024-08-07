@@ -16,11 +16,10 @@
 2、application-dev.yml是本地运行配置文件，服务器上运行的是application-prod.yml，因为服务器部署在外网，所以邮箱用了gmail，如果想使用此配置文件，
 同理需要自己申请授权码并填写上。
 
+# 3、项目前后台介绍
+![前台页面](front.png)
 
 
-
-
-
-
+![后台页面](back.png)
 
 
