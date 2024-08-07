@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace绑定了与之对应的接口,值是该接口的全限定名;这个参数有且只有一个 -->
+<mapper namespace="org.skywise.skyworks.mapper.ArticleMapper">
+
+    <resultMap id="BaseResultMap" type="org.skywise.skyworks.model.Article">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="title" jdbcType="VARCHAR" property="title"/>
+        <result column="upvote_num" jdbcType="INTEGER" property="upvoteNum"/>
+        <result column="collect_num" jdbcType="INTEGER" property="collectNum"/>
+        <result column="comment_num" jdbcType="INTEGER" property="commentNum"/>
+        <result column="label" jdbcType="VARCHAR" property="label"/>
+        <result column="image_name" jdbcType="VARCHAR" property="imageName"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+        <result column="is_delete" jdbcType="INTEGER" property="isDelete"/>
+        <result column="priority" jdbcType="INTEGER" property="priority"/>
+    </resultMap>
+
+    <update id="updateBatchUpvote" parameterType="java.util.List">
+        UPDATE article
+        SET upvote_num = CASE id
+        <foreach collection="list" item="article">
+            WHEN #{article.id} THEN #{article.upvoteNum}
+        </foreach>
+        END
+        WHERE id IN
+        <foreach collection="list" item="article" index="index" separator="," open="(" close=")">
+            #{article.id}
+        </foreach>
+    </update>
+
+    <update id="updateBatchCollect" parameterType="java.util.List">
+        UPDATE article
+        SET collect_num = CASE id
+        <foreach collection="list" item="article">
+            WHEN #{article.id} THEN #{article.collectNum}
+        </foreach>
+        END
+        WHERE id IN
+        <foreach collection="list" item="article" index="index" separator="," open="(" close=")">
+            #{article.id}
+        </foreach>
+    </update>
+
+    <update id="updateBatchView" parameterType="java.util.List">
+        UPDATE article
+        SET view_num = CASE id
+        <foreach collection="list" item="article">
+            WHEN #{article.id} THEN #{article.viewNum}
+        </foreach>
+        END
+        WHERE id IN
+        <foreach collection="list" item="article" index="index" separator="," open="(" close=")">
+            #{article.id}
+        </foreach>
+    </update>
+</mapper>

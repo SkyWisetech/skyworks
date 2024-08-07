@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace绑定了与之对应的接口,值是该接口的全限定名;这个参数有且只有一个 -->
+<mapper namespace="org.skywise.skyworks.mapper.CollectMapper">
+
+    <resultMap id="BaseResultMap" type="org.skywise.skyworks.model.Collect">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="user_id" jdbcType="INTEGER" property="userId"/>
+        <result column="article_id" jdbcType="INTEGER" property="articleId"/>
+    </resultMap>
+
+    <insert id="insertBatch" parameterType="java.util.List">
+        INSERT INTO `collect` (`user_id`, `article_id`)
+        VALUES
+        <foreach collection="list" index="" item="collect" separator=",">
+            (#{collect.userId}, #{collect.articleId})
+        </foreach>
+    </insert>
+
+</mapper>

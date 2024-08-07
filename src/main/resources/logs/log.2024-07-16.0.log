@@ -1,0 +1,1375 @@
+2024-07-16 09:02:33.819 - [http-nio-8080-exec-7] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:05:16.942 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:05:21.918 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:20:19.997 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:20:33.357 - [http-nio-8080-exec-7] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:20:33.370 - [http-nio-8080-exec-9] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：null
+2024-07-16 09:20:45.838 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:20:56.765 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:21:08.522 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:24:01.168 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:33:06.930 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 09:33:06.936 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 09:33:09.258 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 09:33:09.266 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 24568 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 09:33:09.267 - [main] INFO  org.skywise.skyworks.SkyworksApplication -No active profile set, falling back to 1 default profile: "default"
+2024-07-16 09:33:10.086 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 09:33:10.093 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 09:33:10.094 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 09:33:10.094 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 09:33:10.200 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 09:33:10.201 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 905 ms
+2024-07-16 09:33:10.759 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 09:33:11.035 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 09:33:18.191 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 09:33:18.193 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 09:33:18.200 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 09:33:18.204 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 09:33:18.219 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 09:33:18.239 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: javax.mail.AuthenticationFailedException: 535 5.7.3 Authentication unsuccessful [TYWPR01CA0025.jpnprd01.prod.outlook.com 2024-07-16T01:33:18.608Z 08DCA3DBF0569E2A]
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+2024-07-16 09:41:17.618 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 09:41:17.625 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 25912 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 09:41:17.626 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 09:41:18.431 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 09:41:18.437 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 09:41:18.437 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 09:41:18.437 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 09:41:18.565 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 09:41:18.565 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 908 ms
+2024-07-16 09:41:19.044 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 09:41:19.316 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 09:41:20.568 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 09:41:20.580 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 09:41:20.587 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.295 seconds (JVM running for 3.882)
+2024-07-16 09:41:28.501 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 09:41:28.504 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 09:51:52.610 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 09:51:52.616 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 22300 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 09:51:52.616 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 09:51:53.433 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 09:51:53.440 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 09:51:53.441 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 09:51:53.441 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 09:51:53.570 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 09:51:53.571 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 927 ms
+2024-07-16 09:51:54.036 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 09:51:55.307 - [main] ERROR com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy66.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy71.selectList(Unknown Source)
+	at org.skywise.skyworks.service.impl.CollectServiceImpl.listCollect(CollectServiceImpl.java:24)
+	at org.skywise.skyworks.common.caffeine.InitDataCaffeine.loadCollect(InitData.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+2024-07-16 09:51:55.319 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initData': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/CollectMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.CollectMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+2024-07-16 09:51:55.325 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 09:51:55.340 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 09:51:55.359 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initData': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/CollectMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.CollectMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/CollectMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.CollectMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:96)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy66.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy71.selectList(Unknown Source)
+	at org.skywise.skyworks.service.impl.CollectServiceImpl.listCollect(CollectServiceImpl.java:24)
+	at org.skywise.skyworks.common.caffeine.InitDataCaffeine.loadCollect(InitData.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/CollectMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.CollectMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:153)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 34 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	... 41 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 51 common frames omitted
+2024-07-16 09:55:04.001 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 09:55:04.008 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 19648 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 09:55:04.009 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 09:55:04.836 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 09:55:04.841 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 09:55:04.842 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 09:55:04.842 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 09:55:04.973 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 09:55:04.973 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 932 ms
+2024-07-16 09:55:05.458 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 09:55:05.747 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 09:55:07.007 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 09:55:07.054 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 09:55:07.061 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.385 seconds (JVM running for 3.978)
+2024-07-16 09:55:25.634 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 09:55:25.634 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 09:55:25.635 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2024-07-16 09:55:25.738 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:56:06.142 - [http-nio-8080-exec-4] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:56:17.252 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:56:23.998 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:57:34.279 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:58:09.656 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:58:50.533 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:58:52.535 - [http-nio-8080-exec-4] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:58:59.811 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 09:59:03.979 - [http-nio-8080-exec-9] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:01:03.105 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:01:03.109 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:01:07.600 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:01:07.609 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 21872 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:01:07.609 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 10:01:08.427 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:01:08.433 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:01:08.434 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:01:08.434 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:01:08.564 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:01:08.565 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 925 ms
+2024-07-16 10:01:09.049 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:01:09.323 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:01:10.481 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:01:10.493 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 10:01:10.500 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.227 seconds (JVM running for 3.823)
+2024-07-16 10:07:20.859 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:07:20.863 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:11:30.768 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:11:30.774 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 25156 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:11:30.775 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 10:11:31.600 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:11:31.606 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:11:31.607 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:11:31.607 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:11:31.737 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:11:31.738 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 933 ms
+2024-07-16 10:11:32.221 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:11:32.494 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:11:33.717 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:11:33.731 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 10:11:33.739 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.295 seconds (JVM running for 3.883)
+2024-07-16 10:11:46.690 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 10:11:46.690 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 10:11:46.691 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2024-07-16 10:11:46.712 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:12:05.180 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:12:13.046 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:17:41.608 - [http-nio-8080-exec-7] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:17:41.665 - [http-nio-8080-exec-8] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:17:48.859 - [http-nio-8080-exec-9] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:17:54.847 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:17:59.314 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:19:13.117 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:21:43.189 - [http-nio-8080-exec-7] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:22:09.643 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:22:09.649 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:25:08.646 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:25:08.657 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 19860 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:25:08.658 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 10:25:09.491 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:25:09.497 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:25:09.498 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:25:09.498 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:25:09.627 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:25:09.627 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 938 ms
+2024-07-16 10:25:10.107 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:25:10.385 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:25:17.650 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 10:25:17.651 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:25:17.656 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:25:17.659 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 10:25:17.666 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 10:25:17.683 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: javax.mail.AuthenticationFailedException: 535 5.7.3 Authentication unsuccessful [OS7PR01CA0204.jpnprd01.prod.outlook.com 2024-07-16T02:25:18.057Z 08DCA4FE1E8232C0]
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+2024-07-16 10:26:33.326 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:26:33.332 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 2500 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:26:33.333 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 10:26:34.155 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:26:34.160 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:26:34.161 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:26:34.161 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:26:34.288 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:26:34.289 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 927 ms
+2024-07-16 10:26:34.769 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:26:35.049 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:26:42.049 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 10:26:42.052 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:26:42.058 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:26:42.061 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 10:26:42.075 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 10:26:42.093 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: javax.mail.AuthenticationFailedException: 535 5.7.3 Authentication unsuccessful [SI2P153CA0026.APCP153.PROD.OUTLOOK.COM 2024-07-16T02:26:42.443Z 08DCA51514F42574]
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+2024-07-16 10:40:43.061 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:40:43.068 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 18860 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:40:43.069 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 10:40:43.907 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:40:43.913 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:40:43.913 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:40:43.913 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:40:44.043 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:40:44.043 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 946 ms
+2024-07-16 10:40:44.492 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:40:44.764 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:40:46.086 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:40:46.102 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 10:40:46.108 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.388 seconds (JVM running for 3.972)
+2024-07-16 10:40:56.641 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 10:40:56.642 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 10:40:56.642 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2024-07-16 10:40:56.665 - [http-nio-8080-exec-4] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:41:08.002 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:43:02.026 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:43:11.581 - [http-nio-8080-exec-9] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:46:33.606 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:46:33.610 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:46:35.594 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:46:35.601 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 10884 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:46:35.602 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 10:46:36.438 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:46:36.443 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:46:36.444 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:46:36.444 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:46:36.570 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:46:36.571 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 939 ms
+2024-07-16 10:46:37.029 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:46:37.302 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:46:46.749 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 10:46:46.752 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 10:46:46.759 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 10:46:46.764 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 10:46:46.779 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 10:46:46.800 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: javax.mail.AuthenticationFailedException: 535 5.7.3 Authentication unsuccessful [TYCP286CA0010.JPNP286.PROD.OUTLOOK.COM 2024-07-16T02:46:47.156Z 08DCA4DC84A481BA]
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+2024-07-16 10:57:47.845 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 10:57:47.854 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 1728 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 10:57:47.855 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 10:57:48.688 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 10:57:48.694 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:57:48.694 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 10:57:48.694 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 10:57:48.824 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 10:57:48.825 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 940 ms
+2024-07-16 10:57:49.299 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 10:57:49.619 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 10:57:50.834 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 10:57:50.847 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 10:57:50.854 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.347 seconds (JVM running for 3.927)
+2024-07-16 10:57:50.964 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 10:57:50.964 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 10:57:50.965 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2024-07-16 10:57:50.982 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:57:56.829 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:58:04.962 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 10:58:11.156 - [http-nio-8080-exec-4] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:01:15.949 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:01:24.766 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:01:28.190 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:02:00.986 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:02:10.063 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:02:13.388 - [http-nio-8080-exec-7] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:04:21.756 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:07:19.694 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:07:31.052 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:07:34.505 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:09:03.195 - [http-nio-8080-exec-8] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:09:47.784 - [http-nio-8080-exec-9] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:10:19.234 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:10:30.936 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:10:37.755 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:10:56.185 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:11:02.240 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:11:05.563 - [http-nio-8080-exec-4] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:11:57.181 - [http-nio-8080-exec-8] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NTM5MzcsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.Rl4BktIAO44HrsLXY-x7UoGdlJdz4vTHSQ1qIUd3v4A
+2024-07-16 11:30:26.804 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 11:30:26.835 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 11:30:31.489 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 11:30:31.501 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 25364 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 11:30:31.502 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 11:30:32.310 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 11:30:32.316 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:30:32.316 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 11:30:32.316 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 11:30:33.145 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 11:30:33.146 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1617 ms
+2024-07-16 11:30:33.621 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 11:30:33.957 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 11:30:55.493 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 11:30:55.497 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 11:30:55.508 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 11:30:55.621 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 11:30:55.630 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 11:30:55.649 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 32 common frames omitted
+2024-07-16 11:32:51.006 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 11:32:51.014 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 25596 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 11:32:51.014 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 11:32:51.856 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 11:32:51.862 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:32:51.862 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 11:32:51.862 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 11:32:51.992 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 11:32:51.992 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 943 ms
+2024-07-16 11:32:52.487 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 11:32:52.766 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 11:39:04.515 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 11:39:04.522 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 25740 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 11:39:04.522 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 11:39:05.368 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 11:39:05.374 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:39:05.375 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 11:39:05.375 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 11:39:05.505 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 11:39:05.505 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 953 ms
+2024-07-16 11:39:05.969 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 11:39:06.240 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 11:39:16.861 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 11:39:16.863 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 11:39:16.868 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 11:39:16.871 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 11:39:16.880 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 11:39:16.896 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: javax.mail.MessagingException: Got bad greeting from SMTP host: smtp.gmail.com, port: 465, response: [EOF]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2198)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+2024-07-16 11:42:30.953 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 11:42:30.960 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 12936 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 11:42:30.961 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 11:42:31.809 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 11:42:31.815 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:42:31.816 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 11:42:31.816 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 11:42:31.949 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 11:42:31.949 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 959 ms
+2024-07-16 11:42:32.420 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 11:42:32.692 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 11:42:54.208 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 11:42:54.210 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 11:42:54.215 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 11:42:54.218 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 11:42:54.229 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 11:42:54.262 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 32 common frames omitted
+2024-07-16 11:43:27.797 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 11:43:27.805 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 24116 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 11:43:27.806 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 11:43:28.637 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 11:43:28.643 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:43:28.643 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 11:43:28.644 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 11:43:28.776 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 11:43:28.776 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 942 ms
+2024-07-16 11:43:29.266 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 11:43:29.540 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 11:43:33.083 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:43:33.095 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 11:43:33.102 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 5.656 seconds (JVM running for 6.235)
+2024-07-16 11:44:25.696 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 11:44:25.696 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 11:44:25.697 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2024-07-16 11:45:31.469 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 11:45:31.481 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 11:50:29.503 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 11:50:29.510 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 22376 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 11:50:29.510 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 11:50:30.358 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 11:50:30.363 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 11:50:30.364 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 11:50:30.364 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 11:50:30.494 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 11:50:30.495 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 956 ms
+2024-07-16 11:50:30.975 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 11:50:32.244 - [main] ERROR com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy66.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy69.selectList(Unknown Source)
+	at org.skywise.skyworks.service.impl.ArticleServiceImpl.listAllArticle(ArticleServiceImpl.java:64)
+	at org.skywise.skyworks.common.caffeine.InitDataCaffeine.loadLabelToArticle(InitData.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+2024-07-16 11:50:32.252 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initData': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/ArticleMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.ArticleMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+2024-07-16 11:50:32.255 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 11:50:32.265 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 11:50:32.287 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initData': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/ArticleMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.ArticleMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/ArticleMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.ArticleMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:96)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy66.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy69.selectList(Unknown Source)
+	at org.skywise.skyworks.service.impl.ArticleServiceImpl.listAllArticle(ArticleServiceImpl.java:64)
+	at org.skywise.skyworks.common.caffeine.InitDataCaffeine.loadLabelToArticle(InitData.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+### The error may exist in org/skywise/skyworks/mapper/ArticleMapper.java (best guess)
+### The error may involve org.skywise.skyworks.mapper.ArticleMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:153)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 34 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	... 41 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'info_share'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 51 common frames omitted
+2024-07-16 12:19:03.111 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 12:19:03.124 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 5800 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 12:19:03.124 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 12:19:03.976 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 12:19:03.982 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 12:19:03.982 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 12:19:03.982 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 12:19:04.852 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 12:19:04.852 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1696 ms
+2024-07-16 12:19:05.325 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 12:19:05.654 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 12:19:27.236 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 12:19:27.240 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 12:19:27.254 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 12:19:29.263 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 12:19:29.270 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 24068 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 12:19:29.271 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 12:19:30.096 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 12:19:30.101 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 12:19:30.102 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 12:19:30.102 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 12:19:30.233 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 12:19:30.234 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 936 ms
+2024-07-16 12:19:30.705 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 12:19:30.981 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 12:19:52.591 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 12:19:52.598 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 23312 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 12:19:52.599 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 12:19:53.436 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 12:19:53.442 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 12:19:53.442 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 12:19:53.443 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 12:19:53.575 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 12:19:53.576 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 950 ms
+2024-07-16 12:19:54.063 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 12:19:54.338 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 12:20:15.829 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 12:20:15.831 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 12:20:15.836 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 12:20:15.839 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 12:20:15.849 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 12:20:15.866 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 25; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 32 common frames omitted
+2024-07-16 12:20:37.800 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 12:20:37.808 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 11848 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 12:20:37.808 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 12:20:38.637 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 12:20:38.643 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 12:20:38.643 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 12:20:38.643 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 12:20:38.773 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 12:20:38.773 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 937 ms
+2024-07-16 12:20:39.280 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 12:20:39.553 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 12:20:50.442 - [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+2024-07-16 12:20:50.443 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 12:20:50.448 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 12:20:50.451 - [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2024-07-16 12:20:50.460 - [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 12:20:50.478 - [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.skywise.skyworks.SkyworksApplication.main(SkyworksApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration]: Constructor threw exception; nested exception is java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Mail server is not available
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:54)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.<init>(MailSenderValidatorAutoConfiguration.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 21 common frames omitted
+Caused by: javax.mail.MessagingException: Got bad greeting from SMTP host: smtp.gmail.com, port: 465, response: [EOF]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2198)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
+	at org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration.validateConnection(MailSenderValidatorAutoConfiguration.java:51)
+	... 27 common frames omitted
+2024-07-16 12:21:06.257 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 12:21:06.265 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 16612 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 12:21:06.265 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "prod"
+2024-07-16 12:21:07.107 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 12:21:07.112 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 12:21:07.113 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 12:21:07.113 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 12:21:07.244 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 12:21:07.244 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 947 ms
+2024-07-16 12:21:07.716 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 12:21:07.992 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 12:21:11.968 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 12:21:11.985 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 12:21:11.992 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 6.08 seconds (JVM running for 6.69)
+2024-07-16 12:21:16.025 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 12:21:16.029 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 14:23:28.049 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 14:23:28.060 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 13616 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 14:23:28.060 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 14:23:28.874 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 14:23:28.881 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:23:28.881 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 14:23:28.881 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 14:23:29.015 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 14:23:29.015 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 922 ms
+2024-07-16 14:23:29.521 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 14:23:29.793 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 14:23:31.031 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:23:31.045 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 14:23:31.052 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.309 seconds (JVM running for 3.885)
+2024-07-16 14:23:50.208 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 14:23:50.208 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 14:23:50.209 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2024-07-16 14:23:50.219 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM0NDk0OTQsInVzZXJJZCI6MSwiZW1haWwiOiIxMjcwNzYyNzUzQHFxLmNvbSJ9.Hk4bxzG0bAIOJJj_2dz9bzJCsg3rI8TK6MDozRSpSug
+2024-07-16 14:26:02.670 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 14:26:02.674 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 14:26:43.166 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 14:26:43.174 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 21092 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 14:26:43.174 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 14:26:44.034 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 14:26:44.041 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:26:44.041 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 14:26:44.042 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 14:26:44.171 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 14:26:44.171 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 965 ms
+2024-07-16 14:26:44.651 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 14:26:44.949 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 14:26:46.055 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:26:46.068 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 14:26:46.075 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.247 seconds (JVM running for 3.84)
+2024-07-16 14:30:04.263 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 14:30:04.273 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 14:30:07.991 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 14:30:07.999 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 16712 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 14:30:08.000 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 14:30:08.914 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 14:30:08.920 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:30:08.921 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 14:30:08.921 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 14:30:09.060 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 14:30:09.060 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1028 ms
+2024-07-16 14:30:09.581 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 14:30:09.878 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 14:30:11.016 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:30:11.030 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 14:30:11.038 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.412 seconds (JVM running for 4.075)
+2024-07-16 14:30:30.983 - [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 14:30:30.983 - [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 14:30:30.984 - [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2024-07-16 14:31:00.210 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：null
+2024-07-16 14:37:56.902 - [http-nio-8080-exec-7] ERROR o.s.s.common.exception.GlobalExceptionHandler -请求地址'/skyworks/user/adminLogin',发生未知异常.
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (' ' (code 160)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (' ' (code 160)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:391)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character (' ' (code 160)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2096)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1746)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:798)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:181)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	... 51 common frames omitted
+2024-07-16 14:51:30.783 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 14:51:30.788 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2024-07-16 14:51:33.363 - [background-preinit] INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.5.Final
+2024-07-16 14:51:33.371 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Starting SkyworksApplication using Java 1.8.0_411 on WIN-UPBA67H258E with PID 20764 (D:\skywise_project\projects\skyworks\target\classes started by Administrator in D:\skywise_project\projects\skyworks)
+2024-07-16 14:51:33.371 - [main] INFO  org.skywise.skyworks.SkyworksApplication -The following 1 profile is active: "dev"
+2024-07-16 14:51:34.207 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2024-07-16 14:51:34.212 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:51:34.213 - [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2024-07-16 14:51:34.213 - [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-16 14:51:34.355 - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2024-07-16 14:51:34.355 - [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 954 ms
+2024-07-16 14:51:34.825 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2024-07-16 14:51:35.101 - [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2024-07-16 14:51:36.284 - [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2024-07-16 14:51:36.299 - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-16 14:51:36.306 - [main] INFO  org.skywise.skyworks.SkyworksApplication -Started SkyworksApplication in 3.274 seconds (JVM running for 3.87)
+2024-07-16 14:52:23.834 - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16 14:52:23.835 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2024-07-16 14:52:23.836 - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2024-07-16 14:52:44.105 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:53:02.928 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:53:02.945 - [http-nio-8080-exec-7] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：null
+2024-07-16 14:53:14.482 - [http-nio-8080-exec-10] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:53:22.395 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:53:22.406 - [http-nio-8080-exec-2] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：null
+2024-07-16 14:53:47.578 - [http-nio-8080-exec-5] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:53:56.425 - [http-nio-8080-exec-3] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:53:56.436 - [http-nio-8080-exec-6] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：null
+2024-07-16 14:54:25.279 - [http-nio-8080-exec-9] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:56:16.823 - [http-nio-8080-exec-1] INFO  o.s.s.common.Interceptor.LoginCheckInterceptor -从请求头中获取的令牌：eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjM3OTExNDMsInVzZXJJZCI6MCwiZW1haWwiOiJhZG1pbiJ9.uOGAheEptyKBFgDzjFPJhOu6BAXm9lQ6GqKguaVbRko
+2024-07-16 14:59:27.265 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2024-07-16 14:59:27.269 - [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

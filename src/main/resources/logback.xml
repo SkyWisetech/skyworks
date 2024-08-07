@@ -1,0 +1,53 @@
+<!--<property> 全局属性标签，方便下游引用-->
+<!--<appender> 定义一个日志输出目标，可以是控制台或文件，name用于引用，class指定实现类-->
+<!--<file> 定义日志文件名-->
+<!--<encoder> 定义输出格式，打印信息，颜色，字符集等-->
+<!--<rollingPolicy> 定义滚动策略，用于在日志文件达到一定大小或时间间隔时，将当前日志文件重命名并创建新的日志文件-->
+<!--class 属性指定滚动策略的实现类-->
+<!--fileNamePattern 元素指定日志文件名的格式-->
+<!--maxHistory 元素定义保留的历史日志文件数目-->
+
+<!-- 开启扫描，配置变更时logback自动更新配置 -->
+<configuration scan="true" scanPeriod="10 seconds">
+
+    <!-- 属性，方便下面引用  -->
+    <property name="LOG_HOME" value="/logs"/>
+    <property name="CONSOLE_LOG_PATTERN" value="%yellow(%date{yyyy-MM-dd HH:mm:ss}) "/>
+    <property name="CHARSET" value="UTF-8"/>
+
+<!-- 控制台输出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 彩色日志 -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss} [%thread] %magenta(%-5level) %green([%-50.50class]) >>> %cyan(%msg) %n
+            </pattern>
+        </layout>
+    </appender>
+
+    <!-- 日志输出到本地文件的代码 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 当文件到达多大就自动新建一个文件继续存放数据 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/log.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <MaxHistory>60</MaxHistory>
+        </rollingPolicy>
+        <!-- 刷新时间 -->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} - [%thread] %-5level %logger{50} -%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--<root>标签：
+    属性：只有一个 level 属性，默认是debug，日志记录器的级别，包括 TRACE、DEBUG、INFO、WARN、ERROR 和 OFF
+    和<logger>的区别：其实还有一个<logger>标签，它是可以定义多个的，且可以定义多个层级，但是他们的根节点是<root>,所以层级关系就是<root>是一个特殊的<logger>标签，它没有父级，它是根节点
+    左右：用于指定日志级别和输出目标-->
+    <!--appender-ref 元素用于指定输出目标，可以是控制台，也可以是文件。注意和级别的区别，级别定义输出日志的多少，此元素定义输出的位置-->
+
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

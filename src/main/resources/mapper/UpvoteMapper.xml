@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace绑定了与之对应的接口,值是该接口的全限定名;这个参数有且只有一个 -->
+<mapper namespace="org.skywise.skyworks.mapper.UpvoteMapper">
+
+    <resultMap id="BaseResultMap" type="org.skywise.skyworks.model.Upvote">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="type" jdbcType="INTEGER" property="type"/>
+        <result column="art_com_id" jdbcType="INTEGER" property="artComId"/>
+        <result column="user_id" jdbcType="INTEGER" property="userId"/>
+    </resultMap>
+
+    <insert id="insertBatch" parameterType="java.util.List">
+        INSERT INTO `upvote` (`type`, `art_com_id`, `user_id`,`create_time`)
+        VALUES
+        <foreach collection="list" index="" item="upvote" separator=",">
+            (#{upvote.type}, #{upvote.artComId}, #{upvote.userId}, now())
+        </foreach>
+    </insert>
+
+</mapper>

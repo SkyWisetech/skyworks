@@ -1,0 +1,100 @@
+# port
+server:
+  port: 8080
+
+# 数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/info_share?&allowMultiQueries=true
+    username: root
+    password: 123456
+    hikari:
+      #设置事务自动提交
+      auto-commit: true
+      #设置最大连接数
+      maximum-pool-size: 10
+      minimum-idle: 10
+      #获取连接是，检测语句
+      connection-test-query: select 1
+      #连接超时设置
+      connection-timeout: 10000
+
+  # 发送邮箱验证码
+  mail:
+    # smtp服务主机
+    # qq邮箱则为smtp.qq.com; 1270762753@qq.com；eqkiyfigdgpnhdei；
+    host: smtp.qq.com
+    # 端口号
+    port: 587
+    #服务协议
+    protocol: smtp
+    # 编码集
+    default-encoding: UTF-8
+    #发送邮件的账户
+    username: 1270762753@qq.com
+    #授权码
+    password: eqkiyfigdgpnhdei
+    test-connection: true
+    properties:
+      mail:
+        properties:
+          mail:
+            html: true
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  # 配置静态资源路径
+  web:
+    resources:
+      static-locations: classpath:/static/, file:${upload.upload-path}
+  # 限制上传文件最大值
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+# DAO层数据库查询
+mybatis-plus:
+  global-config:
+    db-config:
+#配置id自增长，ID自动生成策略
+      id-type: auto
+  configuration:
+    #开启驼峰命名自动映射
+    map-underscore-to-camel-case: true
+    #开启日志打印
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.mybatisplus.pojo
+  #扫描mapper文件
+  mapper-locations: classpath:mapper/*.xml
+
+# 分页查询
+pagehelper:
+  # 设置方言，此处指定 MySQL 数据库
+  helper-dialect: mysql
+  # 是否启动合理化，默认是 false。
+  # 启用合理化时，如果pageNum<1会查询第一页，如果pageNum>pages（最大页数）会查询最后一页。
+  # 禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据
+  reasonable: true
+  # 是否支持接口参数来传递分页参数，默认false
+  support-methods-arguments: true
+  # 为了支持startPage(Object params)方法，增加了该参数来配置参数映射，用于从对象中根据属性名取值
+  params: count=countSql
+  # 默认值为 false，当该参数设置为 true 时，如果 pageSize=0 或者 RowBounds.limit = 0 就会查询出全部的结果（相当于没有执行分页查询，但是返回结果仍然是 Page 类型）
+  page-size-zero: true
+
+# 生成Token的秘钥
+token:
+  secret: eyJhbGciOiJIUzI1NiJ9
+
+# 图片上传
+upload:
+  upload-path: ./src/main/resources/static/image/article/
+
+# 管理员用户名
+admin:
+  userName: admin
+  password: 123456
