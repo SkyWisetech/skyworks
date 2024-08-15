@@ -11,6 +11,9 @@ import {
 import { updateArticle } from '@/api/articlemanage/articlemanage'
 import Editor from './components/editor.vue'
 import { isEditorNull } from '@/utils/tools.js'
+import { useCounterStore } from '@/stores/modules/homeList.js'
+const base = useCounterStore()
+const baseURL = ref(base.baseURL)
 const route = useRoute()
 const router = useRouter()
 // 标签数据
@@ -23,10 +26,10 @@ const formModel = ref({
   title: '',
   content: '',
   imageName: '',
-  label: '',
-  oneId: ''
+  label: '', //二级
+  oneId: '' //一级
 })
-
+const editorRef = ref(null)
 // 整个表单的rules
 const rules = {
   title: [
@@ -64,13 +67,11 @@ const handleUpload = async (param) => {
   let image = new FormData()
   image.append('image', param.file)
   try {
-    console.log('上传图片参数..', param)
+    // console.log('上传图片参数..', param)
     const res = await uploadImage(image) // uploadImage是一个返回Promise的函数
     if (res.data.code == 200) {
-      // imgUrl.value = `http://192.168.1.5:8080/skyworks` + res.data.data // 响应的data中有一个imageUrl字段包含图片的URL
-      imgUrl.value = `http://207.148.115.202:80/skyworks` + res.data.data // 响应的data中有一个imageUrl字段包含图片的URL
+      imgUrl.value = baseURL.value + res.data.data // 响应的data中有一个imageUrl字段包含图片的URL
       formModel.value.imageName = res.data.data
-      console.log(res.data.data)
       ElMessage.success('图片上传成功')
     } else {
       ElMessage.error('图片上传失败')
@@ -97,18 +98,20 @@ const LabelClassifications = async () => {
 }
 
 const labelName = ref('')
+const labelName2 = ref('')
 const handleChangeOneLabel = () => {
   // 这里可以添加额外的逻辑，比如清空当前选中的二级标签
-
   if (!formModel.value.oneId) return []
-
   let data = tagsList.value.oneLabelClassList.filter(
     (item) => item.id == formModel.value.oneId
   )
-
   tagsList.value.twoLabelClassList = data[0].childLabelList
   labelName.value = data[0].id //新增的一级标签label取id
   // labelName.value = data[0].labelName //labelName
+}
+//二级标签筛选
+const handleChangeOneLabelTwo = (v) => {
+  labelName2.value = v.label //新增的二级级标签label取id
 }
 // 编辑/文章详情查询
 const articleId = ref({
@@ -117,41 +120,38 @@ const articleId = ref({
 articleId.value = route.query.id
 const detailList = async () => {
   const res = await articleDetailList({ articleId: articleId.value })
-  console.log(res.data.data)
   formModel.value.title = res.data.data.title
   formModel.value.content = res.data.data.content
   editorRef.value.valueHtml = res.data.data.content
   // editorRef.value.valueHtml =
   //   '<p></p><p><strong></strong></p><p><img src="http://207.148.115.202/skyworks/image/1722242761033.jfif" alt="img" data-href="" style=""/></p>'
-  // imgUrl.value = `http://192.168.1.5:8080/skyworks` + res.data.data.imageName
-  imgUrl.value = `http://207.148.115.202:80/skyworks` + res.data.data.imageName
+  imgUrl.value = baseURL.value + res.data.data.imageName
   formModel.value.imageName = res.data.data.imageName
-  formModel.value.label = res.data.data.label
-  formModel.value.oneId = res.data.data.labelName
+  // formModel.value.label = res.data.data.label ///给二级标签赋label值
+  // formModel.value.oneId = res.data.data.labelName //给一级标签赋label值
+
+  formModel.value.oneId = res.data.data.parentLabelName //给一级标签赋label值
+  formModel.value.label = res.data.data.labelName ///给二级标签赋label值
 }
 // 发布文章
 const formRef = ref(null)
-const editorRef = ref(null)
+
 const articlepublish = async () => {
   formModel.value.content = editorRef.value.valueHtml
-  formModel.value.label = labelName.value
+  formModel.value.label = labelName2.value
   formRef.value.content = isEditorNull(editorRef.value.valueHtml)
     ? ''
     : editorRef.value.valueHtml
-  console.log(editorRef.value.valueHtml, 'valueHtml')
   // editorRef.value.valueHtml =
   //   '<p>文章</p><p><strong>rwerwe666 e</strong></p><p><img src="http://207.148.115.202/skyworks/image/1722243820166.jpg" alt="img" data-href="" style=""/></p>'
-  console.log(editorRef.value.valueHtml, 'valueHtml')
   await formRef.value.validate() //登录前的预校验(获取到组件调用方法)
   // return
-  // eslint-disable-next-line no-unreachable
   if (route.query.id) {
-    console.log('编辑文章')
     // 编辑文章
     formModel.value.id = route.query.id
     console.log(formModel.value)
-
     const res = await updateArticle(formModel.value)
+    console.log(res)
     if (res.data.code == 200) {
       ElMessage.success('编辑文章成功')
       formModel.value.title = null
@@ -159,6 +159,7 @@ const articlepublish = async () => {
       formModel.value.imageName = ''
       formModel.value.label = null
       formModel.value.oneId = null
+      if (editorRef.value.valueHtml) editorRef.value.valueHtml = null
       imgUrl.value = ''
       router.push({
         name: '/articlemanage'
@@ -170,14 +171,23 @@ const articlepublish = async () => {
     // 发布文章
     const res = await insertArticle(formModel.value)
     if (res.data.code == 200) {
+      console.log('文章发布成功')
       ElMessage.success('文章发布成功')
       formModel.value.title = null
       formModel.value.content = null
       formModel.value.imageName = ''
       formModel.value.label = null
       formModel.value.oneId = null
+      // editorRef.value.valueHtml = null
+      if (editorRef.value.valueHtml) editorRef.value.valueHtml = null
+
       imgUrl.value = ''
+      router.push({
+        name: '/articlemanage'
+      })
     } else {
+      console.log('文章发布失败')
+
       ElMessage.error('文章发布失败')
     }
   }
@@ -216,7 +226,6 @@ onMounted(() => {
           <Editor ref="editorRef" />
         </el-form-item>
         <el-form-item prop="imageName" label="上传封面:">
-          {{ imgUrl }}
           <el-upload
             v-model="formModel.imageName"
             action
@@ -265,6 +274,7 @@ onMounted(() => {
                   placeholder="请选择"
                   class="select"
                   no-data-text="暂无数据"
+                  @change="handleChangeOneLabelTwo(formModel)"
                 >
                   <el-option
                     v-for="item in tagsList.twoLabelClassList"

@@ -1,7 +1,9 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { listArticle } from '@/api/home/homearticle'
 import { useRouter } from 'vue-router'
+import { useCounterStore } from '@/stores/modules/homeList'
+const counterStore = useCounterStore()
 // 首页标题模糊查询
 const list = ref({
   title: '',
@@ -17,6 +19,7 @@ const articlelist = async () => {
   } = await listArticle(list.value)
   setTimeout(() => {
     listarticles.value = data
+    console.log(data)
     isLoading.value = false // 数据加载完成后设置加载状态为false
   }, 1000) // 假设请求需要1秒
 
@@ -31,6 +34,17 @@ const toArticleDetails = (id) => {
     }
   })
 }
+
+watch(
+  () => router,
+  (newValue, oldValue) => {
+    if (newValue) {
+      // } else {
+    }
+    console.log(newValue)
+    console.log(oldValue)
+  }
+)
 
 onMounted(() => {
   articlelist()
@@ -54,7 +68,7 @@ onMounted(() => {
           <div class="grid-content">
             <el-image
               v-if="item.imageName"
-              :src="`http://192.168.1.3:8080/skyworks` + item.imageName"
+              :src="counterStore.baseURL + item.imageName"
               class="image"
               fit="fill"
               lazy="true"

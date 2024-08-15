@@ -10,7 +10,10 @@
     <div v-for="item in collectList" :key="item.id" class="artical">
       <div @click="onDetail(item.id)">{{ item.title || '--' }}</div>
       <span v-if="isDeling && currId == item.id">取消中..</span>
-      <span v-else @click="unCollect(item.id)">取消收藏</span>
+      <span v-else @click="unCollect(item.id)">
+        <!-- 取消收藏 -->
+        <img src="@/assets/main/collect.png" class="imgs" />
+      </span>
     </div>
     <Pagination @getPageInfo="getPages" :totalProp="totalCount" />
   </div>
@@ -24,7 +27,7 @@ import { delCollect, getCollectList } from '@/api/personal'
 let isDeling = ref(false)
 let currId = ref(null)
 let totalCount = ref(0)
-let pageInfo = reactive({ pageNum: 1, pageSize: 2 })
+let pageInfo = reactive({ pageNum: 1, pageSize: 10 })
 let collectList = ref([])
 const router = useRouter()
 defineProps({
@@ -86,6 +89,8 @@ const onDetail = (id) => {
   padding-right: 30px;
   margin-bottom: 20px;
   border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
   span:nth-child(2) {
     margin: 0 10px;
   }
@@ -95,9 +100,29 @@ const onDetail = (id) => {
     font-size: 12px;
   }
   .imgs {
-    float: right;
+    // float: right;
     width: 18px;
     height: 18px;
+  }
+}
+/* 移动端 100-500px */
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  .artical {
+    padding-bottom: 1.25rem;
+    padding-right: 1.875rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid #eee;
+
+    span:nth-child(2) {
+      margin: 0 0.625rem;
+    }
+    > span {
+      font-size: 0.75rem;
+    }
+    .imgs {
+      width: 1.125rem;
+      height: 1.125rem;
+    }
   }
 }
 </style>

@@ -15,7 +15,7 @@
         mode="default"
       />
       <Editor
-        style="height: 400px; overflow-y: hidden"
+        style="height: 400px; width: 100%; overflow-y: hidden"
         v-model="valueHtml"
         :defaultConfig="editorConfig"
         mode="default"
@@ -37,6 +37,9 @@ import { onBeforeUnmount, ref, shallowRef } from 'vue'
 // 导入富文本编辑器的组件
 import { Editor, Toolbar } from '@wangeditor/editor-for-vue'
 import { uploadImage } from '@/api/articlemanage/articlepublishs'
+import { useCounterStore } from '@/stores/modules/homeList.js'
+const base = useCounterStore()
+const baseURL = ref(base.baseURL)
 // 编辑器实例，必须用 shallowRef
 const editorRef = shallowRef()
 
@@ -59,8 +62,11 @@ editorConfig.value.MENU_CONF['uploadImage'] = {
     const res = await uploadImage(image)
     console.log('自定义图片上传res', res)
     // 将上传的file图片转换为base64
-    const base64 = URL.createObjectURL(file)
-
+    // const base64 = URL.createObjectURL(file)
+    // const base64 = `http://207.148.115.202:81/skyworks` + res.data.data //线上
+    // const base64 = `http://192.168.1.5:8080/skyworks` + res.data.data //本地
+    const base64 = baseURL.value + res.data.data
+    console.log(base64)
     // 这里的file为上传的图片对象,insertFn传入 base64的值
     insertFn(base64, 'img')
   }

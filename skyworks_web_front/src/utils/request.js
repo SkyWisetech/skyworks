@@ -2,8 +2,12 @@ import axios from 'axios'
 import { useUserStore } from '@/stores/modules/user'
 import { ElMessage } from 'element-plus'
 import router from '../router/index'
+
+import { useCounterStore } from '@/stores/modules/homeList'
+const counterStore = useCounterStore()
+const baseURL = counterStore.baseURL
 // const baseURL = 'http://192.168.1.5:8080/skyworks' //测试环境
-const baseURL = 'http://207.148.115.202:80/skyworks' //线上环境
+// const baseURL = 'http://207.148.115.202:80/skyworks' //线上环境
 
 const instance = axios.create({
   // 1. 基地址，超时时间
@@ -29,6 +33,7 @@ instance.interceptors.response.use(
     // console.log('响应拦截器', res)
     // 3. 处理业务失败
     //4. 摘取核心响应数据
+
     // 后端还没开发好，先瞎写
     if (res.data.code === 0 || res.data.code === 200) {
       return res
@@ -38,7 +43,7 @@ instance.interceptors.response.use(
     } else {
       // 处理业务失败，给错误提示，抛出错误
       // 后端还没开发好，先瞎写
-      ElMessage.error(res.data.message || res.data.msg || '服务异常')
+      ElMessage.error(res.data.msg || res.data.msg || '服务异常')
       return Promise.reject(res.data)
     }
   },
@@ -49,7 +54,7 @@ instance.interceptors.response.use(
     }
 
     // 错误的默认提示，只给提示
-    ElMessage.error(err.response.data.message || '服务异常')
+    ElMessage.error(err.response.data.msg || '服务异常')
 
     return Promise.reject(err)
   }

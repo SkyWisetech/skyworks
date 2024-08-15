@@ -3,14 +3,17 @@ import { useUserStore } from '@/stores/modules/user'
 import { ElMessage } from 'element-plus'
 import router from '../router/index'
 //
-const baseURL = 'http://192.168.1.5:8080/skyworks' //测试环境
+// const baseURL = 'http://192.168.1.5:8080/skyworks' //测试环境
 // const baseURL = 'http://207.148.115.202:81/skyworks' //线上环境
-
+import { useCounterStore } from '@/stores/modules/homeList'
+const counterStore = useCounterStore()
+const baseURL = counterStore.baseURL
 const instance = axios.create({
   // 1. 基地址，超时时间
   baseURL,
   timeout: 100000
 })
+
 // 请求拦截器
 instance.interceptors.request.use(
   (config) => {

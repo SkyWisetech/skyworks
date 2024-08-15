@@ -21,11 +21,11 @@ const listArticleData = async () => {
   loading.value = true
   try {
     const res = await listArticle(listData.value)
-    console.log(res, '页面')
+    // console.log(res, '页面')
     tableData.value = res.data.data.articleList
     total.value = res.data.data.totalCount
     page.value = res.data.data.totalPage
-    console.log(total.value, '3333')
+    // console.log(total.value, '3333')
   } catch {
     ElMessage.error('error')
   }
@@ -55,7 +55,7 @@ const searchListArticleData = async () => {
   const res = await listArticle(listData.value)
   total.value = res.data.data.totalCount
   tableData.value = res.data.data.articleList
-  console.log(res, '搜索')
+  // console.log(res, '搜索')
   loading.value = false
 }
 const search = () => {
@@ -137,7 +137,9 @@ onMounted(() => {
           @click="search"
           >搜索</el-button
         >
-        <el-button @click="resetSearch" style="height: 35px">重置</el-button>
+        <el-button @click="resetSearch" class="resetBtn" style="height: 35px"
+          >重置</el-button
+        >
       </el-form-item>
     </el-form>
 
@@ -158,7 +160,7 @@ onMounted(() => {
       <el-table-column label="收藏(数量)" prop="collectNum"></el-table-column>
       <el-table-column label="创建日期" prop="createTime"></el-table-column>
       <el-table-column label="更新日期" prop="updateTime"></el-table-column>
-      <el-table-column label="操作">
+      <el-table-column label="操作" width="240">
         <template #default="{ row }">
           <el-button plain type="primary" @click="onViewComments(row.id)"
             >查看评论</el-button
@@ -221,5 +223,9 @@ onMounted(() => {
     text-align: center;
     color: #333333;
   }
+}
+.resetBtn {
+  height: 26px !important;
+  width: 50px;
 }
 </style>

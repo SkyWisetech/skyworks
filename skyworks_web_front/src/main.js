@@ -6,6 +6,8 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import pinia from './stores/index'
 import App from './App.vue'
 import router from './router'
+import { VueMasonryPlugin } from 'vue-masonry'
+import 'animate.css'
 // import 'amfe-flexible' //rem响应式
 const app = createApp(App)
 app.use(ElementPlus, { size: 'small', zIndex: 3000 })
@@ -14,4 +16,5 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 }
 app.use(pinia)
 app.use(router)
+app.use(VueMasonryPlugin)
 app.mount('#app')

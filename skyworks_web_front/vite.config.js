@@ -48,13 +48,14 @@ export default defineConfig({
     open: true, //表示在启动开发服务器时，会自动打开浏览器并访问指定的地址
     proxy: {
       '/api': {
-        target: 'http://192.168.1.3:8080', //接口域名
+        target: 'http://theworksof.com/', //接口域名
         changeOrigin: true, //是否跨域
         ws: true, //是否代理 websockets
-        secure: false, //是否https接口
-        pathRewrite: {
-          '^/api': '' //假如我们的地址是 /api/member/getToken 会转化为 /member/getToken
-        }
+        secure: true, //是否https接口
+        https: true // 允许https接口代理
+        // pathRewrite: {
+        //   '^/api': '' //假如我们的地址是 /api/member/getToken 会转化为 /member/getToken
+        // }
       }
     }
   },

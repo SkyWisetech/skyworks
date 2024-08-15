@@ -35,7 +35,12 @@ function init() {
           icon: 'circle'
         },
         {
-          name: '日增用户数量'
+          name: '日增用户数量',
+          icon: 'circle'
+        },
+        {
+          name: '日增浏览量',
+          icon: 'circle'
         }
       ],
       textStyle: {
@@ -120,6 +125,23 @@ function init() {
         data: newUserLisrt.value,
         symbol: 'circle', // 折线图的标记形状
         smooth: true // 是否平滑曲线显示
+      },
+      {
+        name: '日增浏览量',
+        type: 'line',
+        tooltip: {
+          valueFormatter: function (value) {
+            return value
+          }
+        },
+        // 设置线条样式
+        lineStyle: {
+          color: '#74defc',
+          type: 'dashed' // 线条类型为虚线
+        },
+        data: newView.value,
+        symbol: 'circle', // 折线图的标记形状
+        smooth: true // 是否平滑曲线显示
       }
     ]
   }
@@ -140,6 +162,7 @@ const newCommentLisrt = ref([])
 const newUserLisrt = ref([])
 const dailyDateLisrt = ref([])
 const tableData = ref([])
+const newView = ref([])
 
 const fetchData = async () => {
   const res = await homeList()
@@ -151,6 +174,7 @@ const fetchData = async () => {
     if (item.newComment) newCommentLisrt.value.push(item.newComment)
     if (item.newUser) newUserLisrt.value.push(item.newUser)
     if (item.dailyDate) dailyDateLisrt.value.push(item.dailyDate)
+    if (item.newView) newView.value.push(item.newView)
   })
 
   init()
@@ -159,8 +183,8 @@ const fetchData = async () => {
 <template>
   <div class="home">
     <header class="header">
-      <el-row :gutter="25">
-        <el-col :span="6">
+      <el-row :gutter="27">
+        <el-col :span="5">
           <el-card shadow="hover">
             <div class="content">
               <div>
@@ -173,7 +197,7 @@ const fetchData = async () => {
             </div>
           </el-card>
         </el-col>
-        <el-col :span="6">
+        <el-col :span="5">
           <el-card shadow="hover">
             <div class="content">
               <div>
@@ -186,7 +210,7 @@ const fetchData = async () => {
             </div>
           </el-card>
         </el-col>
-        <el-col :span="6">
+        <el-col :span="5">
           <el-card shadow="hover">
             <div class="content">
               <div>
@@ -199,7 +223,7 @@ const fetchData = async () => {
             </div>
           </el-card>
         </el-col>
-        <el-col :span="6">
+        <el-col :span="5">
           <el-card shadow="hover">
             <div class="content">
               <div>
@@ -208,6 +232,19 @@ const fetchData = async () => {
               </div>
               <div class="images">
                 <img src="@/assets/home/usertotal.png" class="logo-img" />
+              </div>
+            </div>
+          </el-card>
+        </el-col>
+        <el-col :span="5">
+          <el-card shadow="hover">
+            <div class="content">
+              <div>
+                <span>用户浏览量</span>
+                <h2>{{ getTotalList.viewTotalNum }}</h2>
+              </div>
+              <div class="images">
+                <img src="@/assets/home/198@2x.png" class="logo-img" />
               </div>
             </div>
           </el-card>
@@ -263,6 +300,12 @@ const fetchData = async () => {
                 label="日增用户数量"
                 align="center"
               />
+              <el-table-column
+                width="210"
+                prop="newView"
+                label="日增浏览量"
+                align="center"
+              />
             </el-table>
           </el-card>
         </el-col>
@@ -296,6 +339,10 @@ const fetchData = async () => {
           height: 100%;
         }
       }
+    }
+    ::v-deep(.el-col-5) {
+      max-width: 20%;
+      flex: 0 0 20%;
     }
   }
 

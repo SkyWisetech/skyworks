@@ -13,19 +13,22 @@
       </div>
 
       <div class="del-text">
-        {{ item.commentContent }}
-        <span v-if="isDeling && currId == item.id">删除中..</span>
-        <el-popconfirm
-          v-else
-          title="确认删除此条评论？"
-          confirm-button-text="是的"
-          cancel-button-text="取消"
-          @confirm="onDel(item.id)"
-        >
-          <template #reference>
-            <span class="delSpan">删除评论</span>
-          </template>
-        </el-popconfirm>
+        <div>{{ item.content }}</div>
+        <div>
+          {{ item.commentContent }}
+          <span v-if="isDeling && currId == item.id">删除中..</span>
+          <el-popconfirm
+            v-else
+            title="确认删除此条评论？"
+            confirm-button-text="是的"
+            cancel-button-text="取消"
+            @confirm="onDel(item.id)"
+          >
+            <template #reference>
+              <span class="delSpan">删除评论</span>
+            </template>
+          </el-popconfirm>
+        </div>
       </div>
     </div>
     <Pagination :totalProp="totalCount" @getPageInfo="getPages" />
@@ -36,6 +39,8 @@
 import { reactive, onMounted, ref } from 'vue'
 import Pagination from './pagination.vue'
 import { delComment, getCommentList } from '@/api/personal'
+import { useCounterStore } from '@/stores/modules/homeList'
+const userData = useCounterStore()
 let { modelValue } = defineProps({
   modelValue: Boolean
 })
@@ -44,7 +49,11 @@ let commentList = ref([])
 let isDeling = ref(false)
 let currId = ref(null)
 let totalCount = ref(0)
-let pageInfo = reactive({ pageNum: 1, pageSize: 10 })
+let pageInfo = reactive({
+  pageNum: 1,
+  pageSize: 10,
+  userId: userData.userData.id
+})
 onMounted(async () => {
   // 获取评论列表
   getList()
@@ -89,7 +98,7 @@ const onDel = async (id) => {
     margin: 0;
   }
   border-bottom: 1px solid #eee;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   .title {
     display: flex;
@@ -108,10 +117,43 @@ const onDel = async (id) => {
     font-size: 12px;
   }
   .del-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
     .delSpan {
       cursor: pointer;
+      font-size: 14px;
     }
     text-align: end;
+  }
+}
+.comment:nth-child(1) {
+  padding-top: 0;
+}
+
+/* 移动端 100-500px */
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  .comment {
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
+    .title {
+      .title-text {
+        margin-bottom: 0.25rem;
+
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+    span {
+      font-size: 0.75rem;
+    }
+    .del-text {
+      margin-top: 0.75rem;
+      .delSpan {
+        font-size: 0.875rem;
+      }
+    }
   }
 }
 </style>

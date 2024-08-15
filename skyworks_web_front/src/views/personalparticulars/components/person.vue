@@ -34,14 +34,20 @@
         }
       ]"
     >
-      <el-input size="large" v-model="personInfo.email" clearable />
+      <el-input size="large" v-model="personInfo.email" clearable disabled />
     </el-form-item>
     <el-form-item label="个人简介" prop="desc">
-      <el-input size="large" v-model="personInfo.remark" type="textarea" />
+      <el-input
+        size="large"
+        v-model="personInfo.remark"
+        type="textarea"
+        resize="none"
+        :rows="5"
+      />
     </el-form-item>
     <el-form-item>
       <el-button size="large" type="primary" @click="submitForm(formRef)"
-        >完成</el-button
+        >保存</el-button
       >
     </el-form-item>
   </el-form>
@@ -74,10 +80,12 @@ const submitForm = (formEl) => {
     if (valid) {
       console.log('submit!', personInfo)
       //   调用接口
-      const { code } = await updateUser({ ...personInfo, updateType: 1 })
-      if (code == 200) {
+      const res = await updateUser({ ...personInfo, updateType: 1 })
+      if (res.data.code == 200) {
         ElMessage.success('成功修改个人信息')
         emit('onFinish')
+      } else {
+        ElMessage.error(res.data.code)
       }
     } else {
       console.log('error submit!')

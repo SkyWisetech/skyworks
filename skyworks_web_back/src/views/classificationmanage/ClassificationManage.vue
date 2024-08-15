@@ -216,7 +216,7 @@ onMounted(() => {
   width: 100%;
   background: #fff;
   border-radius: 20px 20px 20px 20px;
-
+  box-shadow: var(--el-box-shadow-light);
   .classification-content {
     padding: 20px 30px 30px;
     ::v-deep(.el-select__wrapper) {
