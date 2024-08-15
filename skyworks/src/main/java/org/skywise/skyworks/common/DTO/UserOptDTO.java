@@ -4,8 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.validation.constraints.Positive;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.time.LocalDate;
 
 /**
@@ -38,6 +37,8 @@ public class UserOptDTO extends PageDTO {
     /**
      * 邮箱
      */
+    @NotEmpty(message = "邮箱不能为空")
+    @Email(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "Invalid email format")
     private String email;
 
     /**

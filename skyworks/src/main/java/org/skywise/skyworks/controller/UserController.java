@@ -10,6 +10,7 @@ import org.skywise.skyworks.common.DTO.UserOptDTO;
 import org.skywise.skyworks.common.VO.UserPageVO;
 import org.skywise.skyworks.common.VO.UserVO;
 import org.skywise.skyworks.common.constant.StrConstant;
+import org.skywise.skyworks.common.enums.AdminEnum;
 import org.skywise.skyworks.common.enums.BlackEnum;
 import org.skywise.skyworks.common.enums.ResMsgEnum;
 import org.skywise.skyworks.common.enums.ReturnCodeEnum;
@@ -128,7 +129,7 @@ public class UserController {
     }
 
     @PostMapping("/loginByPassword")
-    public Response<String> loginByPassword(@RequestBody UserOptDTO userOptDTO) {
+    public Response<String> loginByPassword(@Valid @RequestBody UserOptDTO userOptDTO) {
         List<User> userList = userService.listUsers(userOptDTO);
         if (!userList.isEmpty()) {
             // 检查是否进入了黑名单
@@ -164,6 +165,7 @@ public class UserController {
     public Response<UserVO> getUser() {
         Integer userId = TokenUtil.getUserId();
         UserVO userVO = userService.getUserById(userId);
+        userVO.setPassword(null);
         return Response.success(userVO);
     }
 
@@ -192,7 +194,7 @@ public class UserController {
     @PostMapping("/adminLogin")
     public Response<String> loginByPassword(@RequestBody AdminDTO adminDTO) {
         if (adminDTO.getUserName().equals(userName) && adminDTO.getPassword().equals(password)) {
-            String token = JwtUtil.generateToken(0, userName, secret);
+            String token = JwtUtil.generateToken(AdminEnum.ADMIN_USER_ID.getCode(), userName, secret);
             return Response.success(token);
         }
         return Response.fail(StrConstant.PASSWORD_EMAIL_ERROR);

@@ -13,6 +13,9 @@ import org.skywise.skyworks.common.VO.CommentPageVO;
 public interface ICommentService {
     Long getCommentCount(CommentOptDTO commentOptDTO);
 
+    /**
+     * 用户查询自己的评论文章的评论，屏蔽掉评论评论的条数
+     * */
     CommentPageVO listComment(CommentOptDTO commentOptDTO);
 
     ArticleCommentPageVO listArticleComment(CommentOptDTO commentOptDTO);

@@ -64,6 +64,8 @@ public class CommentServiceImpl implements ICommentService {
         // 设置分页
         PageHelper.startPage(commentOptDTO.getPageNum(), commentOptDTO.getPageSize());
         List<Comment> commentList = commentMapper.selectList(queryWrapper);
+        // 过滤掉回复评论的评论，只显示文章评论
+        commentList = commentList.stream().filter(Comment -> Comment.getParentId().equals(ParentEnum.IS_PARENT.getCode())).collect(Collectors.toList());
         List<Integer> idList = commentList.stream().map(Comment::getArticleId).collect(Collectors.toList());
         List<CommentVO> commentVOList = new ArrayList<>();
         if (!idList.isEmpty()) {

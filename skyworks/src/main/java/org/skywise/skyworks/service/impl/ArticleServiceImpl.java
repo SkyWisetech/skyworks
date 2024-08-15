@@ -11,6 +11,7 @@ import org.skywise.skyworks.common.DTO.ArticleOptDTO;
 import org.skywise.skyworks.common.VO.ArticlePageVO;
 import org.skywise.skyworks.common.VO.ArticleVO;
 import org.skywise.skyworks.common.constant.StrConstant;
+import org.skywise.skyworks.common.enums.AdminEnum;
 import org.skywise.skyworks.common.enums.DeleteEnum;
 import org.skywise.skyworks.common.exception.ServiceException;
 import org.skywise.skyworks.common.utils.TokenUtil;
@@ -19,6 +20,8 @@ import org.skywise.skyworks.mapper.LabelMapper;
 import org.skywise.skyworks.model.Article;
 import org.skywise.skyworks.model.Label;
 import org.skywise.skyworks.service.IArticleService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -38,6 +41,7 @@ import java.util.Set;
  */
 @Service
 public class ArticleServiceImpl implements IArticleService {
+    private static final Logger log = LoggerFactory.getLogger(ArticleServiceImpl.class);
     @Autowired
     private ArticleMapper articleMapper;
 
@@ -65,23 +69,25 @@ public class ArticleServiceImpl implements IArticleService {
             ArticleVO articleVO = new ArticleVO();
             try {
                 BeanUtils.copyProperties(articleVO, article);
-            } catch (Exception e) {
-                throw new ServiceException(StrConstant.COPY_PROPERTY_FAIL);
-            }
-            Set<Integer> upvoteUserIdList = upvoteArticleCache.get(article.getId(), k -> new HashSet<>());
-            Set<Integer> collectUserIdList = collectArticleCache.get(article.getId(), k -> new HashSet<>());
-            Integer viewNum = articleIdToViewNumCache.getIfPresent(article.getId());
-            String labelName = labelNameCache.getIfPresent(Integer.valueOf(article.getLabel()));
-            Integer userId = TokenUtil.getUserId();
+                Set<Integer> upvoteUserIdList = upvoteArticleCache.get(article.getId(), k -> new HashSet<>());
+                Set<Integer> collectUserIdList = collectArticleCache.get(article.getId(), k -> new HashSet<>());
+                Integer viewNum = articleIdToViewNumCache.getIfPresent(article.getId());
+                String labelName = labelNameCache.getIfPresent(Integer.valueOf(article.getLabel()));
+                Integer userId = TokenUtil.getUserId();
 
-            articleVO.setUpvoteNum(upvoteUserIdList.size());
-            articleVO.setCollectNum(collectUserIdList.size());
-            articleVO.setViewNum(viewNum);
-            articleVO.setLabelName(labelName);
-            articleVO.setImageName(article.getImageName());
-            articleVO.setIsUpvoted(upvoteUserIdList.contains(userId));
-            articleVO.setIsCollected(collectUserIdList.contains(userId));
-            articleVOList.add(articleVO);
+                articleVO.setUpvoteNum(upvoteUserIdList.size());
+                articleVO.setCollectNum(collectUserIdList.size());
+                articleVO.setViewNum(viewNum);
+                articleVO.setLabelName(labelName);
+                articleVO.setImageName(article.getImageName());
+                articleVO.setIsUpvoted(upvoteUserIdList.contains(userId));
+                articleVO.setIsCollected(collectUserIdList.contains(userId));
+                articleVOList.add(articleVO);
+            } catch (Exception e) {
+                log.error(e.getMessage());
+//                throw new ServiceException(StrConstant.COPY_PROPERTY_FAIL);
+            }
+
         }
         return articleVOList;
     }
@@ -134,6 +140,12 @@ public class ArticleServiceImpl implements IArticleService {
             articleVO.setLabelName(labelNameCache.getIfPresent(Integer.valueOf(article.getLabel())));
             articleVO.setParentLabelId(secondLabel.getParentId());
             articleVO.setParentLabelName(labelNameCache.getIfPresent(secondLabel.getParentId()));
+            // 如果是前台用户查看，则将图片替换为前台域名的URL
+            if(!userId.equals(AdminEnum.ADMIN_USER_ID.getCode())){
+                String content = articleVO.getContent().replace("http://207.148.115.202:81", "https://theworksof.com");
+                articleVO.setContent(content);
+            }
+
         } catch (Exception e) {
             throw new ServiceException(StrConstant.COPY_PROPERTY_FAIL);
         }
